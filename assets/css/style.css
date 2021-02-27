@@ -122,6 +122,13 @@ main section {
     align-items: center;
 }
 
+.html-css a {
+    color: white;
+}
+
+.html-css a:hover {
+    color: red;
+}
 .mern {
     display: flex;
     width: 96.5%;

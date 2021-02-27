@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER STYLES */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    flex: 2 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    color: #3255AD;
+    text-align: center;
+    padding: 24px 0 24px 0;
+    background-color: white; 
+    background-size: cover;
+}
+/* NAVBAR STYLES */
+nav {
+    display: flex;
+}
+
+/* Add a blue background color to the top navigation */
+.topnav {
+    flex: 1 0 auto;
+    background-color: #3255AD;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar and float right*/
+.topnav a { 
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FA927A;
+  color: #3255AD;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* BODY BACKGROUND IMAGE STYLES */
+body {
+    flex: 1 0 auto;
+    opacity:1;
+	background-image:url(/assets/images/2527107.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+    background-position: center;
+}
+
+/* WORK SECTION STYLES */
+main {
+    flex: 1 0 auto;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 65%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main h2 {
+    flex: 1 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+main section {
+    flex: 1 0 auto;
+    float: right;
+    width: 48.645%;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.app {
+    flex: 1 0 auto;
+    float: right;
+    width: 100%;
+    height: 400px;
+    margin: 10px;
+}
+
+/* BACKGROUND IMAGES AND HEADER STYLES FOR WORK PANELS */
+
+.html-css {
+    display: flex;
+    width: 98.5%;
+    height: 400px;
+    margin: 10px;
+    background-image: url("/assets/images/work_html-css.jpg");
+    background-size: cover;
+    background-position: center;
+    border: solid 10px #4CAF50;
+    align-items: center;
+}
+
+.html-css h3 {
+    flex: 1 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-shadow: 5px 5px 6px #000;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.mern {
+    display: flex;
+    width: 96.5%;
+    height: 300px;
+    margin: 10px;
+    background-image: url("/assets/images/work_mernstack.jpg");
+    background-size: cover;
+    background-position: center;
+    border: solid 10px #4CAF50;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mern h3 {
+    flex: 1 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-shadow: 5px 5px 6px #000;
+    color: white;
+    text-align: center;
+    align-items: center;
+
+}
+
+.javascript {
+    display: flex;
+    width: 96.5%;
+    height: 300px;
+    margin: 10px;
+    background-image: url("/assets/images/work_javascript.jpg");
+    background-size: cover;
+    background-position: center;
+    border: solid 10px #4CAF50;
+    flex-direction: row;
+    align-items: center;
+}
+
+.javascript h3 {
+    flex: 1 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-shadow: 7px 7px 6px #000;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+/* ASIDE STYLES */
+ .wrap {
+    flex: 1 0 auto;
+    float: left;
+    width: 32%;
+    height: auto;
+    margin-left: 25px;
+    align-items: center;
+}
+
+.wrap h2{
+    flex: 1 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+.wrap figure {
+    flex: 1 0 auto ;
+    color: #223a77;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background: #FA927A;
+    background-size: cover;
+    float: inherit;
+    border: solid 10px #f85d3a;
+}
+
+figcaption {
+    display: flex;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.wrap img {
+    flex: 1 0 auto;
+    max-width: 100%;
+    margin: 20px;
+    height: fit-content;
+}
+
+.wrap p {
+    flex: 1 0 auto;
+    float: left;
+    margin: 20px;
+    text-align: justify;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    flex: 1 0 auto;
+    background: #618DFA ;
+    border: solid #3255AD 4px;
+    padding: 10px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer a {
+    color: #223a77;
+}
+
+footer a:hover {
+    color: red;
+}
+
+footer p {
+    flex: 1 0 auto;
+    text-align: center;
+}

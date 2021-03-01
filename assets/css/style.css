@@ -56,7 +56,9 @@ nav {
 body {
     flex: 1 0 auto;
     opacity:1;
-	background-image:url(../images/2527107.jpg);
+	background-image:url(../images/erectangle_1.png);
+    height: 100%;
+    background-attachment: fixed;
 	background-repeat:no-repeat;
 	background-size: cover;
     background-position: center;
@@ -224,7 +226,9 @@ figcaption {
 .wrap p {
     flex: 1 0 auto;
     float: left;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
     text-align: justify;
 }
 
@@ -251,4 +255,33 @@ footer a:hover {
 footer p {
     flex: 1 0 auto;
     text-align: center;
+}
+/* BIO PAGE STYLES */
+
+.biopage {
+    display: flex;
+    color: #223a77;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background: #FA927A;
+    background-size: cover;
+    border: solid 10px #f85d3a;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 1em; */
+    padding: 6em;
+}
+
+article {
+        position: absolute;
+        top: 50%;
+        left:50%;
+        right: 1%;
+        /* margin-right: 10%; */
+        transform: translate(-50%, -50%) }
+}
+
+article p {
+   margin-bottom: 5px;
 }
